@@ -207,11 +207,6 @@ const ListsScreen = () => {
               />
               <CardContent>
                 <CardTitle>{list.title}</CardTitle>
-                <CardText>
-                  {list.videos?.length > 0 
-                    ? `${list.videos.length} videos` 
-                    : "No videos yet"}
-                </CardText>
                 <Button primary onClick={() => handleViewList(list)}>
                   View List
                 </Button>
